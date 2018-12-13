@@ -6,7 +6,7 @@ Please use this git repository as a starter kit. This has been created using CRA
 NOTE: Folder structure can be re-arrange however you want, but make sure it's readable.
 
 The app should be able to do as follow:
-1. Listing the first 18 jobs
+1. Listing the first 12 jobs
 2. Able to search for job by title or company name
 3. Use redux and redux-saga to store the application states
 4. Please do code the `Filter results` button, but no functionality is neccessary
@@ -14,7 +14,7 @@ The app should be able to do as follow:
 
 ## API Endpoint
 Please use this provided api to retrieve the job list. 
-`https://dev.search.bossjob.com/api/v1/search/job_filter?size=10&query=system`
+`https://search.bossjob.com/api/v1/search/job_filter?size=10&query=system`
 
 ```
 size - to specify number of jobs to be retrieved (default is 4)
