@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Header from './shared/components/Header'
+import JobSearch from './shared/components/JobSearch'
+import JobList from './shared/components/JobList'
+import Pagination from './shared/components/Pagination'
 
 class App extends Component {
   render() {
@@ -9,11 +12,9 @@ class App extends Component {
       <div className="App">
         <div className="App-Wrapper">
           <Header />
-          <div style={{padding: '10px 20px'}}>
-            <p>
-              Please show a list of jobs as per design
-            </p>
-          </div>
+          <JobSearch />
+          <JobList />
+          <Pagination />
         </div>
       </div>
     );
